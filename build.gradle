@@ -21,7 +21,7 @@ buildscript {
  import javax.xml.transform.stream.*
  import org.apache.commons.codec.binary.Base64
 
- task runApplicationTest << {
+ task runApplicationTest {
  doLast{ 
    // Define appianPasswordEncoded in gradle.properties 
      // as a base64-encoded string
