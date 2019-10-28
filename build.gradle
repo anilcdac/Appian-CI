@@ -22,7 +22,7 @@ buildscript {
  import org.apache.commons.codec.binary.Base64
 
  task runApplicationTest  {
- doLast{
+	doLast{
      // Define appianPasswordEncoded in gradle.properties 
      // as a base64-encoded string
      def appianPassword = new String(appianPasswordEncoded.decodeBase64())
